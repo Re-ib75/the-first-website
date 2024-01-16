@@ -15,6 +15,7 @@
     width: 1200px;
     height: 75px;
     margin: auto;
+    /* i add  the display flex to nav bar */
     display: flex;  
 }
 
@@ -64,6 +65,7 @@ ul li a:hover{
 .search{
     width: 330px;
     float: left;
+    /* and add the padding to search */
     padding-left: 51px;
 
 }

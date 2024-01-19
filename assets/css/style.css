@@ -4,6 +4,9 @@
 
 
 }
+*, ::after, ::before {
+    box-sizing: revert;
+}
 .main{
     width: 100;
     background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url('../images/1.jpg');
@@ -18,11 +21,11 @@
     /* i add  the display flex to nav bar */
     display: flex;  
 
-        position: relative;
+    position: relative;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: nowrap !important;
+    align-items: flex-start !important;
+    justify-content: normal !important;
     padding-top: 0 !important ;
     padding-bottom: 0 !important;
 }
